@@ -1,58 +1,32 @@
 ---
-title: "Beispiel-FAQ "
-description: "„Kurze und prägnante Antworten auf die wichtigsten Fragen rund um unsere API und die Dokumentation.“"
----
-
-# ---
-
-title: FAQ
-
-description: Kurze Antworten auf die wichtigsten Fragen zu unserem API-Portal – von Zugang & OpenAPI bis zum Testen im Playground.
-
+title: "FAQ"
+description: "Kurze Antworten auf die wichtigsten Fragen zu unserem API-Portal – von Zugang & OpenAPI bis zum Testen im Playground."
 ---
 
 # ❓ Häufige Fragen (FAQ)
 
-\<details\>
+<AccordionGroup>
+  <Accordion title="Was ist dieses Portal?" icon="book">
+    Dies ist die zentrale Dokumentation unserer API und Produkte.  
+    Hier findest du technische Details, Beispiele und Anleitungen.
+  </Accordion>
 
-  \<summary\>Was ist dieses Portal?\</summary\>
+  <Accordion title="Was brauche ich, um die API zu nutzen?" icon="key-round">
+    • Gültiger API-Key (vom Admin)  
+    • Zugang zum Netzwerk oder zur Plattform
+  </Accordion>
 
-  Dies ist die zentrale Dokumentation unserer API und Produkte.
+  <Accordion title="Wo finde ich die OpenAPI-Spezifikation?" icon="file-code">
+    Im **API Playground** kannst du die OpenAPI-Datei einsehen und herunterladen.
+  </Accordion>
 
-  Hier findest du technische Details, Beispiele und Anleitungen.
+  <Accordion title="Kann ich die API ohne Programmierkenntnisse testen?" icon="zap">
+    Ja ✅  
+    Im **Playground** Parameter eintragen und auf „Send“ klicken – die Antwort erscheint direkt im Browser.
+  </Accordion>
 
-\</details\>
-
-\<details\>
-
-  \<summary\>Was brauche ich, um die API zu nutzen?\</summary\>
-
-  • Gültiger API-Key (vom Admin)  
-
-  • Zugang zum Netzwerk oder zur Plattform
-
-\</details\>
-
-\<details\>
-
-  \<summary\>Wo finde ich die OpenAPI-Spezifikation?\</summary\>
-
-  Im **API Playground** kannst du die OpenAPI-Datei einsehen und herunterladen.
-
-\</details\>
-
-\<details\>
-
-  \<summary\>Kann ich die API ohne Programmierkenntnisse testen?\</summary\>
-
-  Ja. Im **Playground** Parameter eintragen und auf „Send“ klicken – die Antwort erscheint im Browser.
-
-\</details\>
-
-\<details\>
-
-  \<summary\>Kontakt bei Problemen\</summary\>
-
-  Technisch: [support@deinefirma.com](mailto:support@deinefirma.com) · Inhaltlich: [api-team@deinefirma.com](mailto:api-team@deinefirma.com)
-
-\</details\>
+  <Accordion title="Kontakt bei Problemen" icon="life-buoy">
+    Technisch: [support@deinefirma.com](mailto:support@deinefirma.com)  
+    Inhaltlich: [api-team@deinefirma.com](mailto:api-team@deinefirma.com)
+  </Accordion>
+</AccordionGroup>
